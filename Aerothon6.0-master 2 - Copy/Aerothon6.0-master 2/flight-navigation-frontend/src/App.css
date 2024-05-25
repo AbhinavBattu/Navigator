@@ -1,0 +1,14 @@
+.map-container {
+    width: 100%; /* Adjust this value as needed */
+    height: 400px; /* Adjust this value as needed */
+    border: 1px solid #ccc; /* Example border, you can modify or remove this */
+    border-radius: 8px; /* Example border radius, adjust as needed */
+    overflow: hidden; /* Ensure map doesn't overflow its container */
+  }
+  
+  /* Adjust map size to fill container */
+  .map-container > div {
+    width: 100%;
+    height: 100%;
+  }
+  
